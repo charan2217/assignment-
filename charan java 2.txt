@@ -1,0 +1,22 @@
+class student{
+void exam() {
+System.out.println("he went to canteen");
+}
+}
+
+class boy extends student {
+void boy() {
+System.out.println("he ate the puff");
+}
+}
+
+class Main{
+public static void main (String args[]) {
+student obj  = new student();
+boy charan = new boy();
+
+charan.exam();
+charan.boy();
+
+}
+}
